@@ -1,0 +1,129 @@
+#title {
+    background-color: #ff4c68;
+    color: white; 
+}
+
+.container-fluid{
+   padding: 5% 15% 10% 15%;
+}
+
+h1{
+    
+    font-size: 3.5rem;
+    height: 1.5;
+}
+
+h2{
+    font-family: serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.navbar {
+    padding-bottom: 3rem;
+}
+
+.navbar-brand{
+    font-style: "ubuntu";
+    font-weight: bold;
+    font-size :2rem; ;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-button{
+    margin: 3% 1% 3% 1%;
+}
+
+.mobile{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    left: 30px;
+}
+
+#features{
+    position: relative;
+    background-color: white;
+    padding: 120px 250px;
+    text-align: center;
+    /* z-index: 1; */
+}
+
+#features-box{
+    padding: 30px 40px;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.carousel-item{
+    padding: 120px 250px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 10px;
+}
+
+@media(max-width : 991.5px ){
+    #title{
+        text-align: center;   
+    }
+    .mobile{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 120px 230px 120px 230px;
+    text-align: center;
+    
+}
+
+
+.cta-section{
+    font-size: 4rem;
+    line-height: 1.2;
+    padding-bottom: 15px;
+}
+
+#footer{
+    padding: 120px 250px;
+    text-align: center;
+    color: gray;
+}
